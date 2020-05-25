@@ -1,0 +1,31 @@
+body{
+ 
+    background-image: url('../images/waterfall.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    width:750px;
+    height:650px;
+    background-color: rgba(240, 227, 227, 1);
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    border-radius: 50px;
+    border-color: rgb(42, 238, 107);
+    border-width: 5px;
+    border-style: solid;
+    /*opacity: 0.5;*/
+   /* transition:  25s all;*/
+}
+.container:hover {
+    background-color: yellow;
+    width: 760px;
+    height: 350px;
+    margin-top: 150px;
+    font-size: 35px;
+    color: lightgreen;
+}
